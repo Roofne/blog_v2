@@ -1,0 +1,108 @@
+header {
+    border: 2.5px solid black;
+    text-align: center;
+    margin: 1em;
+    height: 100px;
+}
+
+nav {
+    border: 2.5px solid black;
+    margin: 1em;
+}
+
+
+.nav-option {
+    border: 2.5px solid black;
+    padding: 1em;
+    text-align: center;
+    font-size : 14px;
+}
+
+footer {
+    border: 2.5px solid black;
+    text-align: center;
+    padding: 2em;
+    margin: 1em 1em 0 1em;
+}
+
+
+.main {
+    border: 2.5px solid black;
+    padding: 2em;
+    margin: 1em 1em 0 1em;
+    text-align: center;
+}
+
+#mainbox {
+    display: flex;
+    margin: 1em;
+}
+
+#connect-box {
+    width: 20%;
+    padding: 0.5em;
+    margin-right:1em;
+    border: 2.5px solid black;
+
+    float: left;
+    position: fixed;
+
+    display: grid;
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+}
+
+#connect-box input {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#edit-box {
+    border: 2.5px solid black;
+    width: 80%;
+    margin-left: 22%;
+    padding: 1em;
+}
+
+#inscription-box {
+    border: 2.5px solid black;
+    width: 80%;
+    margin-left: 22%;
+    padding: 1em;
+}
+
+#articles-box {
+    border: 2.5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 22%;
+    background-color: aqua;
+}
+
+#form-box {
+    border: 2.5px solid black;
+    width: 80%;
+    margin-left: 22%;
+    padding: 1em;
+}
+
+.small-box {
+    border: 2.5px solid black;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    margin: 1em 2em 1em 2em;
+    padding: 0em 1em 0.5em 1em;
+}
+
+.small-box .title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.small-box .action {
+    text-align: center;
+}

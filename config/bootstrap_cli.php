@@ -21,6 +21,7 @@ use Cake\Core\Configure;
  * Additional bootstrapping and configuration for CLI environments should
  * be put here.
  */
+Plugin::load('YourPluginName', ['routes' => true]);
 
 // Set the fullBaseUrl to allow URLs to be generated in shell tasks.
 // This is useful when sending email from shells.

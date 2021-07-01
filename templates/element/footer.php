@@ -1,3 +1,3 @@
 <footer>
-Foot
+Créé par Toine VINTEL
 </footer>

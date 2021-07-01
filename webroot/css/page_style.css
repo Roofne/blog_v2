@@ -1,15 +1,21 @@
+body {
+    background-image: linear-gradient(0.25turn, blue , aqua 80%, lightblue);
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
 header {
-    border: 2.5px solid black;
+    background-color: lightgrey;
     text-align: center;
-    margin: 1em;
     height: 100px;
 }
 
 nav {
-    border: 2.5px solid black;
+    border: 2.5px solid black ;
+    background-color: white;
     margin: 1em;
 }
-
 
 .nav-option {
     border: 2.5px solid black;
@@ -19,12 +25,11 @@ nav {
 }
 
 footer {
-    border: 2.5px solid black;
+    background-color: lightgrey;
     text-align: center;
-    padding: 2em;
-    margin: 1em 1em 0 1em;
-}
+    height: 100px;
 
+}
 
 .main {
     border: 2.5px solid black;
@@ -42,7 +47,7 @@ footer {
     width: 20%;
     padding: 0.5em;
     margin-right:1em;
-    border: 2.5px solid black;
+    border: 1px solid black;
 
     float: left;
     position: fixed;
@@ -60,37 +65,40 @@ footer {
 }
 
 #edit-box {
-    border: 2.5px solid black;
+    border: 1px solid black;
+    background-color: white;
     width: 80%;
     margin-left: 22%;
     padding: 1em;
 }
 
 #inscription-box {
-    border: 2.5px solid black;
+    border: 1px solid black;
+    background-color: white;
     width: 80%;
     margin-left: 22%;
     padding: 1em;
 }
 
 #articles-box {
-    border: 2.5px solid black;
+    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
     margin-left: 22%;
-    background-color: aqua;
+    background-color: white;
 }
 
 #form-box {
     border: 2.5px solid black;
+    background-color: white;
     width: 80%;
     margin-left: 22%;
     padding: 1em;
 }
 
 .small-box {
-    border: 2.5px solid black;
+    border: 1px solid black;
     background-color: white;
     width: 100%;
     text-align: left;
@@ -105,4 +113,5 @@ footer {
 
 .small-box .action {
     text-align: center;
+
 }

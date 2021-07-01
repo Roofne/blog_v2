@@ -18,7 +18,7 @@
             echo "<div class='action'>";
                 echo $this->Html->link('Edit', ['action' => 'editArticle', $article->slug]);
                 echo " | ";
-                echo $this->form->postlink('Delete', ['action' => 'delete', $article->slug], ['confirm' => 'Are you sure ?']);
+                echo $this->form->postlink('Delete', ['action' => 'deleteArticle', $article->slug], ['confirm' => 'Are you sure ?']);
             echo "</div>";
 
         echo "</div>";       
